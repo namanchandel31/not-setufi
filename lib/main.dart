@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:setufi/1Module/view/explore.dart';
 import 'package:setufi/1Module/view/onboarding_view.dart';
 import 'package:sizer/sizer.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Montserrat',
           primarySwatch: Colors.blue,
         ),
-        home: OnboardingScreen(),
+        home: ExploreScreen(),
       ),
     );
   }
